@@ -1,26 +1,17 @@
-
----
-
-# 📌 **API_DOCUMENTATION.md (Clear & Simple for Assignment)**
-
-```markdown
 # 📘 Lottery App API Documentation
 
-This file documents all available REST API endpoints of the **Lottery App Backend**.
+This file documents all available REST API endpoints of the Lottery App Backend.
 
 Base URL: http://localhost:8080
-
-
----
 
 1. Get All Tickets
 
 GET /api/tickets
 
 Returns all pre-loaded lottery tickets.
+ 
+✔ Response (200 OK)
 
-### ✔ Response (200 OK)
-```json
 {
   "status": 200,
   "message": "Tickets fetched successfully",
